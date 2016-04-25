@@ -3,6 +3,12 @@
 - Approx. completion time: **10 hours**
 - Deliverables: **1 HTML file, 1 CSS file, images**
 
+
+font-family: 'Source Sans Pro', sans-serif;
+font-family: "Bree Serif", serif;
+
+
+
 ---
 
 **This is a cumulative website project, with the goal of proving to me that you can do everything learned this term—by yourself.**

@@ -2,22 +2,30 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Image grid</title>
+  <title>Restaurant</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic" rel="stylesheet" type="text/css">
 </head>
 <body>
 
   <header>
+    <h1>Marketplace Food Court</h1>
     <nav>
-      <h1>Marketplace Food Court</h1>
-      <ul>
+      <input type="checkbox" class="nav-check" id="nav-check">
+      <label class="nav-label" for="nav-check">
+        <img class="nav-open" src="images/nav-icon.svg" alt="Navigation">
+        <img class="nav-close" src="images/nav-icon-close.svg" alt="Close">
+      </label>
+      <ul class="nav">
         <li><a href="#">What's Popular</a></li>
         <li><a href="#">Menu</a></li>
         <li><a href="#">Three</a></li>
       </ul>
     </nav>
   </header>
+
 
   <section class="banner">
     <h2>Finally</h2>
@@ -28,11 +36,12 @@
     <img src="images/placeholder-16by9.svg" alt="">
   </section>
 
-  <a class="whats-popular" href="#">
-    <div class="card">
-      <img src="images/placeholder-3by2.svg" alt="">
-      <h2>What's Popular</h2>
-      <p>Check our customers' favourite delicious dishes!</p>
+  <a class="link-card" href="https://learn-the-web.algonquindesign.ca/courses/web-dev-1/link-patterns/#slide-5">
+    <h2>What's Popular</h2>
+    <img src="images/placeholder-3by2.svg" alt="">
+    <p>Check our customers' favourite delicious dishes!</p>
+    <div class="btn-wrap">
+      <span class="btn">Learn more</span>
     </div>
   </a>
 
