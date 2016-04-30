@@ -288,12 +288,42 @@ footer {
 
 @media only screen and (min-width: 38em) {
 
+  .nav-check {
+    display: none;
+  }
+
+  .nav-label {
+    display: none;
+  }
+
+  .nav {
+    position: absolute;
+    right: 2rem;
+    bottom: 1rem;
+  }
+
+  .nav li {
+    display: inline;
+    padding: 1rem;
+  }
+
+  
+
+
+
+
 }
 
 
 
 
 @media only screen and (min-width: 60em) {
+
+  .link-card {
+    display: inline-block;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
 
 }
 
