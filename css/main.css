@@ -249,6 +249,7 @@ footer {
   padding: 3rem;
   background-color: #600;
   color: white;
+  float: left;
 }
 
 @media only screen and (min-width: 25em) {
@@ -289,9 +290,6 @@ footer {
   }
 
 }
-
-
-
 
 @media only screen and (min-width: 60em) {
 
