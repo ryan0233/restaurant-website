@@ -231,6 +231,45 @@ a {
   margin-right: 1rem;
 }
 
+.bread {
+  max-width: 25%;
+  display: block;
+  padding-top: 2rem;
+
+}
+
+.soup {
+  max-width: 40%;
+  padding-top: 2rem;
+}
+
+.pasta {
+  max-width: 50%;
+  padding-top: 2rem;
+}
+
+.dessert {
+  max-width: 40%;
+  padding-top: 2rem;
+}
+
+.find dt {
+  text-align: left;
+}
+
+.find dd {
+  text-align: right;
+}
+
+.find {
+  margin-right: 3rem;
+}
+
+footer {
+  padding: 3rem;
+  background-color: #660000;
+  color: white;
+}
 
 
 @media only screen and (min-width: 25em) {
