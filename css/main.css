@@ -170,10 +170,10 @@ nav a:hover {
   display: block;
   border-radius: 5px;
   max-width: 20em;
-  background-color: #ccc;
+  background-color: #white;
   color: black;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
   padding-left: 1rem;
   padding-right: .75rem;
   padding-bottom: .75rem;
@@ -207,6 +207,28 @@ ul li {
 
 a {
   text-decoration: none;
+}
+
+.popular {
+  padding-top: 3rem;
+  margin-left: 3rem;
+  margin-right: 1rem;
+}
+
+.popular img {
+  max-width: 75%;
+}
+
+.menu {
+  padding-top: 3rem;
+  margin-left: 3rem;
+  margin-right: 1rem;
+}
+
+.find {
+  padding-top: 3rem;
+  margin-left: 3rem;
+  margin-right: 1rem;
 }
 
 
