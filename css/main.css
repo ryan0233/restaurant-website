@@ -1,4 +1,4 @@
--moz-viewport { width: device-width; scale: 1; }
+@-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font: normal 100%/1.3 sans-serif;
+  font: normal 100%/1.3 serif;
 }
 
 *, *::before, *::after {
@@ -33,7 +33,7 @@ header {
 h1 {
   text-align: center;
   font-size: 1.5rem;
-  line-height: 50px;
+  line-height: 50;
   background-color: #D83D3D;
   color: #FFCC00;
   display: block;
@@ -74,7 +74,7 @@ h1 {
 .banner h2 {
   font-size: 4rem;
   text-align: center;
-  line-height: .5rem;
+  line-height: .5;
 }
 
 .banner p {
@@ -170,7 +170,6 @@ nav a:hover {
   display: block;
   border-radius: 5px;
   max-width: 20em;
-  background-color: #white;
   color: black;
   margin-left: 2.5rem;
   margin-right: 2.5rem;
@@ -275,9 +274,13 @@ footer {
 
 @media only screen and (min-width: 25em) {
 
+  body {
+    font-size: 110%;
+  }
+
+
   .link-card {
     display: inline-block;
-
   }
 
 
@@ -287,6 +290,11 @@ footer {
 
 
 @media only screen and (min-width: 38em) {
+
+
+  body {
+    font-size: 120%;
+  }
 
   .nav-check {
     display: none;
@@ -318,8 +326,11 @@ footer {
 
 @media only screen and (min-width: 60em) {
 
+
   .body {
     margin: 4rem;
+    font-size: 130%;
+    line-height: 1.4;
   }
 
   .link-card {
@@ -336,12 +347,16 @@ footer {
     max-width: 75%;
   }
 
-
 }
 
 
 
 
 @media only screen and (min-width: 90em) {
+
+  body {
+    font-size: 130%;
+    line-height: 1.5;
+  }
 
 }
