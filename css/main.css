@@ -142,7 +142,7 @@ nav a:hover {
 }
 
 .nav-check:checked ~ .nav-label {
-  background-color: #ccc;
+
 }
 
 .nav-close {
@@ -171,22 +171,34 @@ nav a:hover {
   border-radius: 5px;
   max-width: 20em;
   background-color: #ccc;
+  color: black;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  padding-left: 1rem;
+  padding-right: .75rem;
+  padding-bottom: .75rem;
+  text-align: center;
+
+
 
 }
 
-
-
 .link-card:hover {
-  background-color: #5e54af;
-  border-color: #5e54af;
+  background-color: #660000;
   color: #fff;
 }
 
 .link-card:hover .btn {
-  background-color: #bbb6e3;
+  background-color: #993333;
 }
 
-
+.link-card .btn {
+  background-color: #D83D3D;
+  padding: .5em;
+  padding-left: .75em;
+  padding-right: .73em;
+  border-radius: 10px;
+}
 
 ul li {
   list-style-type: none;
