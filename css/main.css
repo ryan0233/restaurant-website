@@ -263,6 +263,7 @@ a {
 
 .find {
   margin-right: 3rem;
+  padding-bottom: 5rem;
 }
 
 footer {
@@ -273,6 +274,12 @@ footer {
 
 
 @media only screen and (min-width: 25em) {
+
+  .link-card {
+    display: inline-block;
+
+  }
+
 
 }
 
