@@ -25,7 +25,7 @@ body {
 
 header {
   position: relative;
-  background-color: #660000;
+  background-color: #600;
   padding: .125em;
   margin: 0;
 }
@@ -34,18 +34,18 @@ h1 {
   text-align: center;
   font-size: 1.5rem;
   line-height: 50;
-  background-color: #D83D3D;
-  color: #FFCC00;
+  background-color: #d83d3d;
+  color: #fc0;
   display: block;
   height: 50px;
   width: 50px;
   border-radius: 30px;
   margin-left: 1rem;
-
-
 }
 
-
+.nav li:hover {
+  background-color: #d83d3d;
+}
 
 .banner-large {
   display: block;
@@ -87,7 +87,7 @@ h1 {
   color: white;
   text-decoration: none;
   text-align: center;
-  background-color: #D83D3D;
+  background-color: #d83d3d;
   padding: .5em;
   padding-left: .75em;
   padding-right: .73em;
@@ -95,25 +95,19 @@ h1 {
 }
 
 .banner a:hover {
-  background-color: #993333;
+  background-color: #933;
 }
 
-
 nav a {
-  color: #D83D3D;
+  color: #d83d3d;
 }
 
 nav a:hover {
-  color: #FFCC00;
+  color: #fc0;
 }
-
-
-
-
 
 .nav {
   display: none;
-
 }
 
 .nav-check:checked ~ .nav {
@@ -141,10 +135,6 @@ nav a:hover {
   width: 100%;
 }
 
-.nav-check:checked ~ .nav-label {
-
-}
-
 .nav-close {
   display: none;
   position: absolute;
@@ -160,12 +150,6 @@ nav a:hover {
   display: block;
 }
 
-
-
-
-
-
-
 .link-card {
   display: block;
   border-radius: 5px;
@@ -177,22 +161,19 @@ nav a:hover {
   padding-right: .75rem;
   padding-bottom: .75rem;
   text-align: center;
-
-
-
 }
 
 .link-card:hover {
-  background-color: #660000;
+  background-color: #600;
   color: #fff;
 }
 
 .link-card:hover .btn {
-  background-color: #993333;
+  background-color: #933;
 }
 
 .link-card .btn {
-  background-color: #D83D3D;
+  background-color: #d83d3d;
   padding: .5em;
   padding-left: .75em;
   padding-right: .73em;
@@ -201,7 +182,6 @@ nav a:hover {
 
 ul li {
   list-style-type: none;
-
 }
 
 a {
@@ -267,10 +247,9 @@ a {
 
 footer {
   padding: 3rem;
-  background-color: #660000;
+  background-color: #600;
   color: white;
 }
-
 
 @media only screen and (min-width: 25em) {
 
@@ -278,19 +257,13 @@ footer {
     font-size: 110%;
   }
 
-
   .link-card {
     display: inline-block;
   }
 
-
 }
 
-
-
-
 @media only screen and (min-width: 38em) {
-
 
   body {
     font-size: 120%;
@@ -315,17 +288,12 @@ footer {
     padding: 1rem;
   }
 
-
-
-
-
 }
 
 
 
 
 @media only screen and (min-width: 60em) {
-
 
   .body {
     margin: 4rem;
@@ -348,9 +316,6 @@ footer {
   }
 
 }
-
-
-
 
 @media only screen and (min-width: 90em) {
 
