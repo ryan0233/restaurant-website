@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Restaurant</title>
+  <title>Marketplace Food Court</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet" type="text/css">
@@ -11,43 +11,63 @@
 <body>
 
   <header>
-    <h1>Marketplace Food Court</h1>
+    <h1>M</h1>
     <nav>
       <input type="checkbox" class="nav-check" id="nav-check">
       <label class="nav-label" for="nav-check">
-        <img class="nav-open" src="images/nav-icon.svg" alt="Navigation">
-        <img class="nav-close" src="images/nav-icon-close.svg" alt="Close">
+        <img class="nav-open" src="images/toggle.svg" alt="Navigation">
+        <img class="nav-close" src="images/close-x.svg" alt="Close">
       </label>
       <ul class="nav">
-        <li><a href="#">What's Popular</a></li>
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">Three</a></li>
+        <li><a href="#1popular">What's Popular</a></li>
+        <li><a href="#2menu">Menu</a></li>
+        <li><a href="#3find">Find Us</a></li>
       </ul>
     </nav>
   </header>
 
 
   <section class="banner">
-    <h2>Finally</h2>
-    <p>Vegetarian food options that won't cost an arm and a leg.</p>
-    <div>
-      <a class="call-to-action" href="#">View Menu</a>
+    <img class="banner-large" src="images/banner-large.jpg" alt="">
+    <div class="banner-content">
+      <h2>Finally</h2>
+      <p>Delicious vegetarian food options that won't cost an arm and a leg.</p>
+      <div>
+        <a class="call-to-action" href="#2menu">View Menu</a>
+      </div>
     </div>
-    <img src="images/placeholder-16by9.svg" alt="">
   </section>
 
-  <a class="link-card" href="https://learn-the-web.algonquindesign.ca/courses/web-dev-1/link-patterns/#slide-5">
+  <a class="link-card" href="#1popular">
     <h2>What's Popular</h2>
-    <img src="images/placeholder-3by2.svg" alt="">
+    <img src="" alt="">
     <p>Check our customers' favourite delicious dishes!</p>
     <div class="btn-wrap">
       <span class="btn">Learn more</span>
     </div>
   </a>
 
+  <a class="link-card" href="#2menu">
+    <h2>Menu</h2>
+    <img src="" alt="">
+    <div class="btn-wrap">
+      <span class="btn">View Menu</span>
+    </div>
+  </a>
+
+  <a class="link-card" href="#3find">
+    <h2>Find Us</h2>
+    <img src="" alt="">
+    <p>Come see when and where you can find us!</p>
+    <div class="btn-wrap">
+      <span class="btn">Learn more</span>
+    </div>
+  </a>
+
+
   <a class="menu" href="#">
     <div class="card">
-      <img src="images/placeholder-3by2.svg" alt="">
+      <img src="" alt="">
       <h2>Menu</h2>
       <p>View our menu</p>
     </div>
@@ -55,7 +75,7 @@
 
   <a class="find-us" href="#">
     <div class="card">
-      <img src="images/placeholder-3by2.svg" alt="">
+      <img src="" alt="">
       <h2>Find Us</h2>
       <p>Come see when and where you can find us!</p>
     </div>
@@ -64,36 +84,36 @@
 
 
 
-  <section>
+  <section id="1popular">
     <h3>What's Popular</h3>
     <p>Veggie Burger</p>
-    <img src="images/placeholder-3by2.svg" alt="">
+    <img src="" alt="">
     <p>Blueberry Pie</p>
-    <img src="images/placeholder-3by2.svg" alt="">
+    <img src="" alt="">
     <p>Vegetable Soup</p>
-    <img src="images/placeholder-3by2.svg" alt="">
+    <img src="" alt="">
   </section>
 
 
-  <section>
+  <section id="2menu">
     <h3>Menu</h3>
     <p>We offer a variety of vegetarian foods for all tastes and occasions.</p>
     <h4>Sandwiches</h4>
     <p>From Grilled Paninis to Tofu Subs, when it comes to sandwiches, we've got you covered.</p>
-    <img src="images/placeholder-3by2.svg" alt="">
+    <img src="" alt="">
     <h4>Soups and Salads</h4>
     <p>Check out our Sweet Potato Salad, or give our <i>Soupe du jour</i> a try.</p>
-    <img src="images/placeholder-3by2.svg" alt="">
+    <img src="" alt="">
     <h4>Pastas</h4>
     <p>Hearty and delicious, our pasta dishes give you energy to tackle the rest of your day.</p>
-    <img src="images/placeholder-3by2.svg" alt="">
+    <img src="" alt="">
     <h4>Desserts</h4>
     <p>Whether it's our famous Blueberry Pie or our deliciously rich Chocolate Cake, you'll undoubtedly enjoy sinking your teeth into one of our desserts.</p>
-    <img src="images/placeholder-3by2.svg" alt="">
+    <img src="" alt="">
   </section>
 
 
-  <section>
+  <section id="3find">
     <h3>Find Us</h3>
     <h4>Hours</h4>
     <dl>
@@ -103,7 +123,7 @@
       <dd>7:00am - 3:00pm</dd>
     </dl>
     <h4>Map</h4>
-    <img src="images/placeholder-3by2.svg" alt="">
+    <img src="" alt="">
   </section>
 
 

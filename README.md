@@ -9,6 +9,13 @@ font-family: "Bree Serif", serif;
 
 
 
+If banner doesn't work on older Safari:
+.banner-content {
+  -webkit-transform: translate (-50%, -50%);    <-- Add the webkit part to your existing transform
+  transform: translate (-50%, -50%);
+}
+
+
 ---
 
 **This is a cumulative website project, with the goal of proving to me that you can do everything learned this term—by yourself.**
