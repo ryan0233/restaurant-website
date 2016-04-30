@@ -307,7 +307,6 @@ footer {
     padding: 1rem;
   }
 
-  
 
 
 
@@ -319,11 +318,24 @@ footer {
 
 @media only screen and (min-width: 60em) {
 
+  .body {
+    margin: 4rem;
+  }
+
   .link-card {
     display: inline-block;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
+
+  .banner {
+    margin-left: 4rem;
+  }
+
+  .popular img {
+    max-width: 75%;
+  }
+
 
 }
 
